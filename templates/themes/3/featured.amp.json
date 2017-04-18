@@ -5,7 +5,9 @@
       "canonical-path": {
         "canonical-path": ""
       },
-      "extensions": [],
+      "extensions": [
+        "amp-sidebar"
+      ],
       "favicon": {
         "href": ""
       },
@@ -13,6 +15,54 @@
         "https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700"
       ],
       "css-path": "templates/themes/3/page.css"
+    },
+    "navbar": {
+      "sidebar-id": "header-sidebar",
+      "sidebaronly": true,
+      "logo": {
+        "name": "The Scenic"
+      },
+      "nav": [
+        {
+          "link": {
+            "url": "#", "text": "Politics"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Technology"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Business"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Entertainment"
+            }
+        }
+      ],
+      "faq": {
+        "links": [
+          {
+            "link": {"url": "#", "text": "About"}
+          },
+          {
+            "link": {"url": "#", "text": "Contact"}
+          }
+        ]
+      },
+      "social-follow": {
+        "links": [
+          {"twitter": "#"},
+          {"facebook": "#"},
+          {"instagram": "#"},
+          {"pinterest": "#"},
+          {"email": "#"}
+        ]
+      }
     }
   }
 }
