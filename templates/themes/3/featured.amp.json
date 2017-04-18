@@ -63,6 +63,26 @@
           {"email": "#"}
         ]
       }
+    },
+    "footer": {
+      "social-follow": {
+        "links": [
+          {"twitter": "#"},
+          {"facebook": "#"},
+          {"pinterest": "#"},
+          {"email": "#"}
+        ]
+      },
+      "faq-links": {
+        "links": [
+          {"text": "About", "url": "#"},
+          {"text": "Contact", "url": "#"},
+          {"text": "Terms", "url": "#"}
+        ]
+      },
+      "copyright": {
+        "text": "© The Scenic, 2017"
+      }
     }
   }
 }
