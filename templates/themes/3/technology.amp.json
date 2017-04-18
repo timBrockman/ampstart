@@ -1,3 +1,18 @@
 {
-  "technology": "True"
+  "technology": {
+    "head-tag": {
+      "title": "The Scenic",
+      "canonical-path": {
+        "canonical-path": ""
+      },
+      "extensions": [],
+      "favicon": {
+        "href": ""
+      },
+      "font-stylesheets": [
+        "https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700"
+      ],
+      "css-path": "templates/themes/3/page.css"
+    }
+  }
 }
