@@ -15,15 +15,42 @@ limitations under the License.
 -->
 
 <!doctype html>
-{{#featured}}
+{{#home}}
 <html ⚡>
 {{> ../utils/amp-page-head.snip.html}}
 <body>
   {{> ../components/navbar/navbar.snip.html}}
   <main id="content" role="main">
 
+    <h4>Featured</h4>
+  {{#featured}}
+    {{!> ../components/related-article/related-article.snip.html}}
+  {{/featured}}
+
+    <h4>Latest</h4>
+  {{#latest}}
+    {{!> ../components/related-article/related-article.snip.html}}
+  {{/latest}}
+
+    <h4>Popular</h4>
+  {{#popular}}
+    {{!> ../components/related-section/related-section.snip.html}}
+  {{/popular}}
+
+    <h4>Categories</h4>
+    <nav>
+      <ul>
+  {{#categories}}
+    {{#link}}
+        <li>
+          <a href="{{{url}}}">{{text}}</a>
+        </li>
+    {{/link}}
+  {{/categories}}
+      </ul>
+    </nav>
   </main>
   {{> ../components/footer/footer.snip.html}}
 </body>
 </html>
-{{/featured}}
+{{/home}}

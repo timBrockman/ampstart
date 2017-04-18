@@ -1,5 +1,5 @@
 {
-  "featured": {
+  "home": {
     "head-tag": {
       "title": "The Scenic",
       "canonical-path": {
@@ -64,6 +64,31 @@
         ]
       }
     },
+    "featured": true,
+    "latest": true,
+    "popular": true,
+    "categories": [
+        {
+          "link": {
+            "url": "#", "text": "Politics"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Technology"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Business"
+            }
+        },
+        {
+          "link": {
+            "url": "#", "text": "Entertainment"
+            }
+        }
+      ],
     "footer": {
       "social-follow": {
         "links": [
