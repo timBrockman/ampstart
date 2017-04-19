@@ -64,7 +64,28 @@
         ]
       }
     },
-    "featured": true,
+    "featured": {
+      "section-heading": {
+        "text": "Featured"
+      },
+      "hero-img": {
+        "url": "",
+        "width": "1",
+        "height": "1"
+      },
+      "article-heading": {
+        "text": "London Calling: Things to do in the Capital of England"
+      },
+      "article-meta": {
+        "author": "J. T. Lee",
+        "date-published": "Feb 03, 2017"
+      },
+      "content-text": "Lorem ipsum dolor sit amet, et usu dolores expetendis, pri id integre facilisis, zril iracundia sadipscing ius in. Exerci ornatus evertitur eu sit, pri oportere ocurreret efficiendi eu. Aeterno conclusionemque at mel. Ex est adhuc rebum ...",
+      "article-link":{
+        "url": "#", 
+        "text":"read more"
+      }
+    },
     "latest": true,
     "popular": true,
     "categories": [

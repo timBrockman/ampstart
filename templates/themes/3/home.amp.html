@@ -22,9 +22,45 @@ limitations under the License.
   {{> ../components/navbar/navbar.snip.html}}
   <main id="content" role="main">
 
-    <h4>Featured</h4>
   {{#featured}}
-    {{!> ../components/related-article/related-article.snip.html}}
+    <!-- Start Featured article -->
+    <section class="">
+      {{#section-heading}}
+        {{#level}}
+          <h{{.}} class="">{{text}}</h{{.}}>
+        {{/level}}
+        {{^level}}
+          <header class="">{{text}}</header>
+        {{/level}}
+      {{/section-heading}}
+      <article class="">
+        {{#hero-img}}
+          <amp-img src="{{{url}}}" width="{{width}}" height="{{height}}" layout="responsive" alt="" class=""></amp-img>
+        {{/hero-img}}
+        {{#article-heading}}
+          {{#level}}
+            <h{{.}} class="">{{text}}</h{{.}}>
+          {{/level}}
+          {{^level}}
+            <header class="">{{text}}</header>
+          {{/level}}
+        {{/article-heading}}
+        {{#article-meta}}
+          <p class="">By {{author}} on {{date-published}}</p>
+        {{/article-meta}}
+        <<!-- maybe different solution -->
+        {{!> ../components/socialbox/socialbox.snip.html}}
+        {{#content-text}}
+          <p class="">
+            {{.}}
+          </p>
+        {{/content-text}}
+        {{#article-link}}
+          <a href="{{{url}}}" class="">{{text}}</a>
+        {{/article-link}}
+      </article>
+    </section>
+    <!-- End Featured article -->
   {{/featured}}
 
     <h4>Latest</h4>
