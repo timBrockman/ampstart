@@ -70,8 +70,8 @@
       },
       "hero-img": {
         "url": "",
-        "width": "1",
-        "height": "1"
+        "width": "300",
+        "height": "400"
       },
       "article-heading": {
         "text": "London Calling: Things to do in the Capital of England"
@@ -96,8 +96,8 @@
           "article-heading": "Mustache Art Party Aestetic Hammock Bicycle Kale Chips Raw Denim",
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "112",
+            "height": "112"
           },
           "article-meta": {
             "author": "D. F. Roy",
@@ -114,8 +114,8 @@
           "article-heading": "Quaint Williamsburg Fingerstache, Copper Mug Letterpress Unicorn",
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "112",
+            "height": "112"
           },
           "article-meta": {
             "author": "Anna Q.",
@@ -132,8 +132,8 @@
           "article-heading": "Meggings Bespoke Echo Park Biodiesel Snackwave Man Bun Hexagon Banjo",
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "112",
+            "height": "112"
           },
           "article-meta": {
             "author": "Abby Beck",
@@ -159,8 +159,8 @@
           },
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "144",
+            "height": "144"
           },
           "article-meta": {
             "date-published": "Feb 03, 2017"
@@ -173,8 +173,8 @@
           },
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "144",
+            "height": "144"
           },
           "article-meta": {
             "date-published": "Feb 03, 2017"
@@ -187,8 +187,8 @@
           },
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "144",
+            "height": "144"
           },
           "article-meta": {
             "date-published": "Feb 03, 2017"
@@ -201,8 +201,8 @@
           },
           "thumb-img": {
             "url": "",
-            "width": "1",
-            "height": "1"
+            "width": "144",
+            "height": "144"
           },
           "article-meta": {
             "date-published": "Feb 03, 2017"
