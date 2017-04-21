@@ -63,14 +63,86 @@ limitations under the License.
     <!-- End Featured article -->
   {{/featured}}
 
-    <h4>Latest</h4>
   {{#latest}}
-    {{!> ../components/related-article/related-article.snip.html}}
+    <!-- Start latest section -->
+    <section class="">
+      {{#section-heading}}
+        {{#level}}
+          <h{{.}} class="">{{text}}</h{{.}}>
+        {{/level}}
+        {{^level}}
+          <header class="">{{text}}</header>
+        {{/level}}
+      {{/section-heading}}
+      <!-- Start latest articles-->
+      {{#articles}}
+      <article class="">
+        {{#article-heading}}
+          {{#level}}
+            <h{{.}} class="">{{text}}</h{{.}}>
+          {{/level}}
+          {{^level}}
+            <header class="">{{text}}</header>
+          {{/level}}
+        {{/article-heading}}
+        {{#thumb-img}}
+          <amp-img src="{{{url}}}" width="{{width}}" height="{{height}}" layout="responsive" alt="" class=""></amp-img>
+        {{/thumb-img}}
+        {{#article-meta}}
+          <p class="">By {{author}} on {{time-published}}</p>
+        {{/article-meta}}
+        {{#content-text}}
+          <p class="">
+            {{.}}
+          </p>
+        {{/content-text}}
+        {{#article-link}}
+          <a href="{{{url}}}" class="">{{text}}</a>
+        {{/article-link}}
+        {{!> ../components/socialbox/socialbox.snip.html}}
+      </article>
+      {{/articles}}
+    </section>
+    <!-- End Featured article -->
   {{/latest}}
 
     <h4>Popular</h4>
   {{#popular}}
-    {{!> ../components/related-section/related-section.snip.html}}
+    <section class="">
+      {{#section-heading}}
+        {{#level}}
+          <h{{.}} class="">{{text}}</h{{.}}>
+        {{/level}}
+        {{^level}}
+          <header class="">{{text}}</header>
+        {{/level}}
+      {{/section-heading}}
+      <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+      {{#articles}}
+        <li class="">
+          {{category}}
+          <figure class="">
+            {{#thumb-img}}
+            <amp-img src="{{{url}}}" width="{{width}}" height="{{height}}" layout="responsive" class=""></amp-img>
+            {{/thumb-img}}
+            <figcaption class="">
+              {{#article-heading}}
+              <span class="">
+                {{text}}
+              </span>
+              {{/article-heading}}
+              {{#article-meta}}
+              <span class="">
+                {{date-published}}
+              </span>
+              {{/article-meta}}
+            </figcaption>
+          </figure>
+          {{meta-time}}
+        </li>
+      {{/articles}}
+      </ul>
+    </section>
   {{/popular}}
 
     <h4>Categories</h4>
