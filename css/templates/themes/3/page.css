@@ -41,6 +41,10 @@ h4,
   line-height: var(--line-height-2);
 }
 
+.ampstart-navbar-trigger{
+  font-size: 1.5rem;
+}
+
 .ampstart-headerbar .h3{
   font: normal 1.25rem/1.6 "EB Garamond", Garamond, times, serif;
   text-transform: none;
