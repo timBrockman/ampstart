@@ -86,8 +86,130 @@
         "text":"read more"
       }
     },
-    "latest": true,
-    "popular": true,
+    "latest": {
+      "section-heading": {
+        "text": "Latest"
+      },
+      "articles": [
+        {
+          "category": "Politics",
+          "article-heading": "Mustache Art Party Aestetic Hammock Bicycle Kale Chips Raw Denim",
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "author": "D. F. Roy",
+            "time-published": "2PM"
+          },
+          "content-text": "Lorem ipsum dolor sit amet, et usu dolores expetendis, pri id integre facilisis, zril iracundia sadipscing ius in. Exerci ornatus evertitur eu sit, pri oportere ocurreret efficiendi eu. Aeterno conclusionemque at mel. Ex est adhuc rebum ...",
+          "article-link": {
+            "url": "#",
+            "text": "read more"
+          }
+        },
+        {
+          "category": "Technology",
+          "article-heading": "Quaint Williamsburg Fingerstache, Copper Mug Letterpress Unicorn",
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "author": "Anna Q.",
+            "time-published": "1PM"
+          },
+          "content-text": "Lorem ipsum dolor sit amet, et usu dolores expetendis, pri id integre facilisis, zril iracundia sadipscing ius in. Exerci ornatus evertitur eu sit, pri oportere ocurreret efficiendi eu. Aeterno conclusionemque at mel. Ex est adhuc rebum ...",
+          "article-link": {
+            "url": "#",
+            "text": "read more"
+          }
+        },
+        {
+          "category": "Business",
+          "article-heading": "Meggings Bespoke Echo Park Biodiesel Snackwave Man Bun Hexagon Banjo",
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "author": "Abby Beck",
+            "time-published": "11AM"
+          },
+          "content-text": "Lorem ipsum dolor sit amet, et usu dolores expetendis, pri id integre facilisis, zril iracundia sadipscing ius in. Exerci ornatus evertitur eu sit, pri oportere ocurreret efficiendi eu. Aeterno conclusionemque at mel. Ex est adhuc rebum ...",
+          "article-link": {
+            "url": "#",
+            "text": "read more"
+          }
+        }
+      ]
+    },
+    "popular": {
+      "section-heading": {
+        "text": "Popular"
+      },
+      "articles": [
+        {
+          "category": "Politics",
+          "article-heading": {
+            "text": "Kombucha Health Mumblecore Schlitz Goth La Croix"
+          },
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "date-published": "Feb 03, 2017"
+          }
+        },
+        {
+          "category": "Technology",
+          "article-heading": {
+            "text": "Squid Pitchfork Skateboard Flannel Meh Small Batch"
+          },
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "date-published": "Feb 03, 2017"
+          }
+        },
+        {
+          "category": "Entertainment",
+          "article-heading": {
+            "text": "Shoreditch Plaid Dreamcatcher Cray Echo Park Vinyl"
+          },
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "date-published": "Feb 03, 2017"
+          }
+        },
+        {
+          "category": "Business",
+          "article-heading": {
+            "text": "Gochujang Disrupt Vexillologist Migas Tote Bag"
+          },
+          "thumb-img": {
+            "url": "",
+            "width": "1",
+            "height": "1"
+          },
+          "article-meta": {
+            "date-published": "Feb 03, 2017"
+          }
+        }
+      ]
+    },
     "categories": [
         {
           "link": {
