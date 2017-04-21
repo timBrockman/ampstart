@@ -6,13 +6,14 @@
         "canonical-path": ""
       },
       "extensions": [
-        "amp-sidebar"
+        "amp-sidebar",
+        "amp-lightbox"
       ],
       "favicon": {
         "href": ""
       },
       "font-stylesheets": [
-        "https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700"
+        "https://fonts.googleapis.com/css?family=EB+Garamond|PT+Sans+Narrow|PT+Sans:400,700"
       ],
       "css-path": "templates/themes/3/page.css"
     },

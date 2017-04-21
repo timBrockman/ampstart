@@ -15,6 +15,7 @@
  */
 
 @import '../../../core';
+@import '../../../../components/navbar/navbar';
 @import 'page-vars';
 
 h1,
@@ -38,4 +39,9 @@ h4,
 .h4 {
   letter-spacing: .15px;
   line-height: var(--line-height-2);
+}
+
+.ampstart-headerbar .h3{
+  font: normal 1.25rem/1.6 "EB Garamond", Garamond, times, serif;
+  text-transform: none;
 }

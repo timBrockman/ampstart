@@ -43,10 +43,9 @@
   --color-font-default: var(--color-dark-grey);
   --color-font-accent: var(--color-font-secondary);
 
-  --color-navbar-primary: var(--color-secondary);
-  --color-navbar-font-primary: var(--color-font-secondary);
 
   --font-primary: "PT Sans", arial, san-serif;
-  --font-secondary: "PT Sans Narrow", arial, sans-serif;
+  --font-narrow: "PT Sans Narrow", arial, sans-serif;
+  --font-secondary: "EB Garamond", Garamond, Times, serif;
   --font-family: var(--font-primary);
 }
