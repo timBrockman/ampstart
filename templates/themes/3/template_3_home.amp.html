@@ -48,14 +48,17 @@ limitations under the License.
         {{#article-meta}}
           <p class="">By {{author}} on {{date-published}}</p>
         {{/article-meta}}
-        <!-- maybe lightbox, maybe different solution >
-          <button on="tap:my-lightbox">&#128228;</button>
-          <amp-lightbox id="my-lightbox" layout="nodisplay">
-            <div class="lightbox">
-              {{!> ../components/socialbox/socialbox.snip.html}}
-            </div>
-          </amp-lightbox>
-        < end lightbox -->
+        <!-- maybe accordian, maybe different solution -->
+        <amp-accordion disable-session-states>
+          <section>
+            <h4>
+              <span class="show-more">Show more</span>
+              <span class="show-less">Show less</span>
+            </h4>
+            {{> ../components/socialbox/socialbox.snip.html}}
+          </section>
+        </amp-accordion>
+        <!-- end accordian -->
         {{#content-text}}
           <p class="">
             {{.}}
@@ -105,7 +108,7 @@ limitations under the License.
         {{#article-link}}
           <a href="{{{url}}}" class="">{{text}}</a>
         {{/article-link}}
-        {{!> ../components/socialbox/socialbox.snip.html}}
+        {{> ../components/socialbox/socialbox.snip.html}}
       </article>
       {{/articles}}
     </section>
