@@ -48,13 +48,14 @@ limitations under the License.
         {{#article-meta}}
           <p class="">By {{author}} on {{date-published}}</p>
         {{/article-meta}}
-        <!-- maybe lightbox, maybe different solution -->
+        <!-- maybe lightbox, maybe different solution >
           <button on="tap:my-lightbox">&#128228;</button>
           <amp-lightbox id="my-lightbox" layout="nodisplay">
             <div class="lightbox">
               {{!> ../components/socialbox/socialbox.snip.html}}
             </div>
           </amp-lightbox>
+        < end lightbox -->
         {{#content-text}}
           <p class="">
             {{.}}
