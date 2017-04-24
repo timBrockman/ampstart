@@ -30,8 +30,6 @@ h2,
 
 h3,
 .h3 {
-  color: var(--color-font-primary);
-  font-family: var(--font-secondary);
   letter-spacing: .2px;
 }
 
@@ -41,11 +39,52 @@ h4,
   line-height: var(--line-height-2);
 }
 
-.ampstart-navbar-trigger{
+.ampstart-navbar-trigger {
   font-size: 1.5rem;
 }
 
-.ampstart-headerbar .h3{
+.ampstart-headerbar .h3 {
   font: normal 1.25rem/1.6 "EB Garamond", Garamond, times, serif;
   text-transform: none;
+}
+
+.ampstart-sidebar {
+  padding: 0;
+}
+
+.ampstart-sidebar > * {
+  padding: 0 1.5rem;
+}
+
+.ampstart-sidebar-header {
+  direction: rtl;
+}
+
+.ampstart-nav-item {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.ampstart-nav-item:active {
+  background-color: var(--color-highlight-blue);
+}
+
+.ampstart-sidebar .ampstart-social-follow {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.ampstart-social-follow .ampstart-icon {
+  fill: var(--color-font-primary);
+}
+
+.ampstart-social-follow a {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-highlight-blue);
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
