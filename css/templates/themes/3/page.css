@@ -39,6 +39,7 @@ h4,
   line-height: var(--line-height-2);
 }
 
+/* header & sidebar */
 .ampstart-navbar-trigger {
   font-size: 1.5rem;
 }
@@ -52,24 +53,24 @@ h4,
   padding: 0;
 }
 
-.ampstart-sidebar > * {
-  padding: 0 1.5rem;
-}
-
 .ampstart-sidebar-header {
+  padding: 0 1.5rem;
   direction: rtl;
 }
 
 .ampstart-nav-item {
+  padding: 0 1.5rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.ampstart-nav-item:active {
+.ampstart-nav-item:active, 
+.ampstart-faq-item:active {
   background-color: var(--color-highlight-blue);
 }
 
 .ampstart-sidebar .ampstart-social-follow {
+  padding: 0 1.5rem;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -88,3 +89,9 @@ h4,
   justify-content: center;
   align-items: center;
 }
+
+.ampstart-faq-item {
+    padding: 0 1.5rem;
+}
+
+/**/
