@@ -20,12 +20,14 @@
   --h3: 1rem;  /* 16px */
   --h4: .75rem;  /* 12px */
   
-  --line-height-2: 1.2857;  /* 36px/28px*/
-  --line-height-3: 1.4;  /* 28px/20px*/
-  --line-height-4: 1.5;  /* 24px/16px */
-  --line-height-5: 1.6667;  /* 20px/12px */
-  --line-height-6: 1.875;  /* 30px/16px */
-  --line-height-7: 1.75; /* 28px/16px */
+  --line-height-1: 1.2858;  /* 36px/28px*/
+  --line-height-2: 1.4;  /* 28px/20px*/
+  --line-height-3: 1.5;  /* 24px/16px */
+  --line-height-4: 1.6667;  /* 20px/12px */
+  --line-height-5: 1.875;  /* 30px/16px */
+  --line-height-6: 1.75; /* 28px/16px */
+
+  --space-4: 3.5rem;
 
   --navbar-height: 3.5rem;
 
@@ -41,7 +43,7 @@
 
   --color-border: var(--color-dark-grey);
 
-  --color-font-default: var(--color-dark-grey);
+  --color-font-default: var(--color-black);
   --color-font-accent: var(--color-font-secondary);
 
 

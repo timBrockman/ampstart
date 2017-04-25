@@ -24,40 +24,22 @@ limitations under the License.
 
   {{#featured}}
     <!-- Start Featured article -->
-    <section class="">
+    <section class="m2">
       {{#section-heading}}
-        {{#level}}
-          <h{{.}} class="">{{text}}</h{{.}}>
-        {{/level}}
-        {{^level}}
-          <header class="">{{text}}</header>
-        {{/level}}
+      <header class="py4 h4 caps center bold">{{text}}</header>
       {{/section-heading}}
       <article class="">
         {{#hero-img}}
           <amp-img src="{{{url}}}" width="{{width}}" height="{{height}}" layout="responsive" alt="" class=""></amp-img>
         {{/hero-img}}
         {{#article-heading}}
-          {{#level}}
-            <h{{.}} class="">{{text}}</h{{.}}>
-          {{/level}}
-          {{^level}}
-            <header class="">{{text}}</header>
-          {{/level}}
+          <header class="h1 bold">{{text}}</header>
         {{/article-heading}}
         {{#article-meta}}
-          <p class="">By {{author}} on {{date-published}}</p>
+          <p class="h5">By {{author}} on {{date-published}}</p>
         {{/article-meta}}
-        <!-- maybe accordian, maybe different solution -->
-        <amp-accordion disable-session-states>
-          <section>
-            <h4>
-              <span class="show-more">Show more</span>
-              <span class="show-less">Show less</span>
-            </h4>
-            {{> ../components/socialbox/socialbox.snip.html}}
-          </section>
-        </amp-accordion>
+        <!-- maybe accordian, maybe different/bind solution -->
+        {{> ../components/socialbox/socialbox.snip.html}}
         <!-- end accordian -->
         {{#content-text}}
           <p class="">
@@ -74,25 +56,15 @@ limitations under the License.
 
   {{#latest}}
     <!-- Start latest section -->
-    <section class="">
+    <section class="mx2">
       {{#section-heading}}
-        {{#level}}
-          <h{{.}} class="">{{text}}</h{{.}}>
-        {{/level}}
-        {{^level}}
-          <header class="">{{text}}</header>
-        {{/level}}
+      <header class="py4 h4 caps center bold">{{text}}</header>
       {{/section-heading}}
       <!-- Start latest articles-->
       {{#articles}}
       <article class="">
         {{#article-heading}}
-          {{#level}}
-            <h{{.}} class="">{{text}}</h{{.}}>
-          {{/level}}
-          {{^level}}
-            <header class="">{{text}}</header>
-          {{/level}}
+          <header class="">{{text}}</header>
         {{/article-heading}}
         {{#thumb-img}}
           <amp-img src="{{{url}}}" width="{{width}}" height="{{height}}" layout="responsive" alt="" class=""></amp-img>
@@ -117,14 +89,9 @@ limitations under the License.
 
     <h4>Popular</h4>
   {{#popular}}
-    <section class="">
+    <aside class="mx2">
       {{#section-heading}}
-        {{#level}}
-          <h{{.}} class="">{{text}}</h{{.}}>
-        {{/level}}
-        {{^level}}
-          <header class="">{{text}}</header>
-        {{/level}}
+      <header class="py4 h4 caps center bold">{{text}}</header>
       {{/section-heading}}
       <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
       {{#articles}}
@@ -151,7 +118,7 @@ limitations under the License.
         </li>
       {{/articles}}
       </ul>
-    </section>
+    </aside>
   {{/popular}}
 
     <h4>Categories</h4>

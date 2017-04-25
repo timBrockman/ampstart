@@ -20,22 +20,31 @@
 
 h1,
 .h1 {
+  line-height: var(--line-height-1);
+  color: var(--color-font-primary);
   letter-spacing: 0;
 }
 
 h2,
 .h2 {
+  line-height: var(--line-height-2);
+  color: var(--color-font-primary);
   letter-spacing: 0;
 }
 
 h3,
 .h3 {
+  line-height: var(--line-height-3);
+  color: var(--color-font-primary);
   letter-spacing: .2px;
 }
 
 h4,
 .h4 {
-  letter-spacing: .15px;
+  line-height: var(--line-height-4);
+  color: var(--color-font-primary);
+  font-family: var(--font-narrow);
+  letter-spacing: 1.5px;
   line-height: var(--line-height-2);
 }
 
@@ -58,8 +67,13 @@ h4,
   direction: rtl;
 }
 
-.ampstart-nav-item {
+.ampstart-sidebar .ampstart-nav-item,
+.ampstart-sidebar .ampstart-faq-item {
+  margin-bottom: 2rem;
   padding: 0 1.5rem;
+}  
+
+.ampstart-sidebar .ampstart-nav-item {
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -88,10 +102,6 @@ h4,
   display: inline-flex;
   justify-content: center;
   align-items: center;
-}
-
-.ampstart-faq-item {
-    padding: 0 1.5rem;
 }
 
 /**/

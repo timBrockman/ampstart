@@ -7,7 +7,6 @@
       },
       "extensions": [
         "amp-sidebar",
-        "amp-accordion",
         "amp-social-share"
       ],
       "favicon": {
